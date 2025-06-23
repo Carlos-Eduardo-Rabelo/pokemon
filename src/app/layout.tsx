@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Cabecalho from "@/components/Cabecalho/Cabecalho";
+import Rodape from "@/components/Rodape/Rodape";
 
 export const metadata: Metadata = {
   title: "Meu Pokémon",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body>
         <Cabecalho/>
         {children}
+        <Rodape/>
       </body>
     </html>
   );
