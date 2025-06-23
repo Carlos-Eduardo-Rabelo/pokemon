@@ -14,7 +14,6 @@ export default function Home() {
             <li className="font-semibold bg-white w-30 text-center text-lg content-center rounded-lg">Girar</li>
             <li className="font-semibold bg-white w-30 text-center text-lg content-center rounded-lg">Perfil</li>
           </ul>
-
         </div>
       </div>
     </div>
